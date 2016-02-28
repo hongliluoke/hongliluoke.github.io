@@ -1,0 +1,101 @@
+@-webkit-keyframes circle {
+          0% {
+            -webkit-transform: rotate(0deg) ;
+          }
+          50%{
+          	 -webkit-transform: rotate(180deg) ;
+          }
+         
+          100% {
+             -webkit-transform: rotate(0deg) ;
+          }
+
+}
+@-webkit-keyframes light {
+          0% {
+            color: #25282d ;
+          }
+          5%{
+          	 color: #24cef7 ;
+          }
+
+          8%{
+          	 color: #848a98 ;
+          }
+          15% {
+            color: #848a98 ;
+          }
+          100% {
+            color: #848a98 ;
+          }
+
+}
+@-webkit-keyframes flash {
+          0% {
+            color: #40454e ;
+          }
+          47% {
+            color: #40454e ;
+          }
+          50%{
+          	 color: #24cef7 ;
+          }
+          53%{
+          	 color: #40454e ;
+          }
+
+         
+          
+
+}
+.resume:hover .two_f{
+	top: -240px;
+}
+.resume:hover .ps{
+	color: #24cef7;
+	background: url(../images/s_ps.png) no-repeat 10px 20px;
+	transition: background-image ease-out .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.7s;
+}
+.resume:hover .ai{
+	color: #f2b55c;
+	background: url(../images/s_ai.png) no-repeat 10px 20px;
+	transition: background-image ease-out .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 1.0s;
+}
+.resume:hover .ae{
+	color: #c587f9;
+	background: url(../images/s_ae.png) no-repeat 10px 20px;
+	transition: background-image ease-out .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 1.3s;
+}
+.resume:hover .dc{
+	color: #7b78fd;
+	background: url(../images/s_dc.png) no-repeat 10px 20px;
+	transition: background-image ease-out .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 1.6s;
+}
+.resume:hover .cs{
+	color: #65ffb5;
+	background: url(../images/s_cs.png) no-repeat 10px 20px;
+	transition: background-image ease-out .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 1.9s;
+}
+.resume:hover .skill_add{
+	top:180px;	
+}
